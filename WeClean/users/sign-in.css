@@ -12,7 +12,7 @@ body{
 
 
 .row{ 
-    margin: 45px;
+    margin: -45px;
     width: 20%;
 }
 
