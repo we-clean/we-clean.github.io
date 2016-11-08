@@ -12,7 +12,7 @@ body{
 
 
 .row{ 
-    float: left;
+    margin: 45px;
     width: 20%;
 }
 
