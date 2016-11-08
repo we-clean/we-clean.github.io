@@ -17,10 +17,5 @@ div .row{
     width: 50%;
 }
 
-.col{
-    float: left;
-    width: 25%;
-    margin-top: -405px;
-    padding-top: 9px;
-}
+
 
