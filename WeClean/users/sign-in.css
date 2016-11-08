@@ -1,4 +1,3 @@
-
 body{
     font-family: 'Lato', sans-serif;
     /*background: url(register.png) no-repeat;*/
@@ -13,8 +12,8 @@ body{
 
 
 div .row{ 
+    float: left;
     width: 20%;
 }
-
 
 
