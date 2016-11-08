@@ -1,1 +1,26 @@
 
+body{
+    font-family: 'Lato', sans-serif;
+    /*background: url(register.png) no-repeat;*/
+    max-width: none;
+    /*-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;*/
+    padding-top: 90px;
+}
+
+
+
+div .row{ 
+    float: right;
+    width: 50%;
+}
+
+.col{
+    float: left;
+    width: 25%;
+    margin-top: -405px;
+    padding-top: 9px;
+}
+
