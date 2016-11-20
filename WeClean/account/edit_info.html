@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WeClean! | Edit Profile</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <!--<link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>-->
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    <script type="text/javascript"  src='http://cdn.renderedfont.com/js/renderedfont-0.8.min.js#free'></script>
+    <link rel="stylesheet" type="text/css" href="edit_info.css">
+    <link href='iron.ico' rel='shortcut icon'  type='image/x-icon'>
+    </head>  
+    
+<body>
+    
+    <header class="container">
+        <div class="row">
+            <a class="col-sm-12" href="#">WeClean!</a>
+            
+            <nav class="col-sm-10 text-right">
+                
+                <ul class="menu">
+                    <li><a class="item" href="#prices">Pricing</a></li>
+                    <li><a class="item" href="users/contact.html">Contact</a></li>                    
+                    
+                     <li class="dropdown">
+                         <a href="#" class="dropdown-toggle" id="drop-menu">Menu <b class="glyphicon glyphicon-menu-hamburger"></b></a>
+                         <ul class="dropdown-menu">
+                             <li><a href="#">Home</a></li> 
+                             <li><a href="#">About Us</a></li>
+                             <li><a href="#">How It Works</a></li>
+                             <li><a href="#prices">Pricing</a></li>                            
+                             <li><a href="users/contact.html">Contact Us</a></li>      
+                         </ul>
+                    </li>
+                    
+                </ul>
+            </nav>
+        </div>    
+    </header>
+    
+    <div class="container">
+  <div class="row">
+  	<div class="col-md-6" id="sign">
+    
+     <form class="form-horizontal" action="" method="POST">
+          <fieldset>
+            <div id="legend">
+              <legend class="">Edit Account Profile</legend>
+            </div>
+              <div class="control-group">
+              <label class="control-label" for="fname">*First Name</label>
+              <div class="controls">
+                <input type="text" id="fname" name="fname" placeholder="" class="form-control input-lg">
+              </div>
+            </div>
+              
+              <div class="control-group">
+              <label class="control-label" for="lname">*Last Name</label>
+              <div class="controls">
+                <input type="text" id="lname" name="lname" placeholder="" class="form-control input-lg">
+              </div>
+            </div>
+              
+              <div class="control-group">
+              <label class="control-label" for="add">*Street Address</label>
+              <div class="controls">
+                <input type="text" id="stadd" name="stadd" placeholder="" class="form-control input-lg">
+              </div>
+            </div>
+              
+              <div class="control-group">
+              <label class="control-label" for="city">*City</label>
+              <div class="controls">
+                <input type="text" id="city" name="city" placeholder="" class="form-control input-lg">
+              </div>
+            </div>
+              
+              <div class="control-group">
+              <label class="control-label" for="State">*State</label>
+              <div class="controls">
+                <input type="text" id="st" name="st" placeholder="" class="form-control input-lg">
+              </div>
+            </div>
+              
+              <div class="control-group">
+              <label class="control-label" for="zip">*Zip Code (Ex:12345):</label>
+           
+              <div class="controls">
+                <input type="text"  id="zip" name="zip" placeholder="" class="form-control input-lg" pattern="[0-9]{5}" title="Five digit zip code" required >
+              </div>
+            </div>
+              
+              <div class="control-group">
+              <label class="control-label" for="ph">*Phone Number (format: xxx-xxx-xxxx):</label>
+               
+              <div class="controls">
+                <input type="tel" id="ph" name="ph" placeholder="" class="form-control input-lg" pattern="^\d{3}-\d{3}-\d{4}$" required>
+              </div>
+            </div>
+              
+         
+            <div class="control-group">
+              <label class="control-label" for="email">E-mail</label>
+              <div class="controls">
+                <input type="email" id="email" name="email" placeholder="" class="form-control input-lg">
+              </div>
+            </div>
+         
+            
+         
+            <div class="control-group">
+              <!-- Button -->
+              <div class="controls"><br>
+                <button class="btn btn-success">Update Profile Details</button><br>
+              </div>
+            </div>
+          </fieldset>
+        </form><br>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="edit_info.js"></script>
+</body>
+    
+</html>
